@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AssignmentFirst"
+        tools:targetApi="31">
+        <activity
+            android:name=".WebGitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UiUxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CssActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HtmlActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IosGitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SwiftUIActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SwiftActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ObjectiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidGitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidDevelopmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XmlActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KotlinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JavaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WebActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DevOpsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BlockchainDevActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SdDevActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
