@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HistoryActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="735dp">
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numerous early Christian martyrs were named Valentine. The Valentines
+            honored on February 14 are Valentine of Rome (Valentinus presb. m. Romae) and Valentine
+of Terni (Valentinus ep. Interamnensis m. Romae). Valentine of Rome was a priest in Rome
+who was martyred in 269 and was added to the calendar of saints by Pope Gelasius I in
+496 and was buried on the Via Flaminia. The relics of Saint Valentine were kept in the
+Church and Catacombs of San Valentino in Rome, which remained an important pilgrim site
+throughout the Middle Ages until the relics of St. Valentine were transferred to the
+church of Santa Prassede during the pontificate of Nicholas IV. The flower-crowned skull
+of Saint Valentine is exhibited in the Basilica of Santa Maria in Cosmedin, Rome. Other
+relics are found at Whitefriar Street Carmelite Church in Dublin, Ireland.
+Valentine of Terni became bishop of Interamna (now Terni, in central Italy) and is said
+to have been martyred during the persecution under Emperor Aurelian in 273. He is buried
+on the Via Flaminia, but in a different location from Valentine of Rome. His relics are
+at the Basilica of Saint Valentine in Terni (Basilica di San Valentino). Professor
+Jack B. Oruch of the University of Kansas notes that 'abstracts of the acts of the two
+saints were in nearly every church and monastery of Europe'. The Catholic Encyclopedia
+speaks of a third saint named Valentine who was mentioned in early martyrologies under
+date of February 14. He was martyred in Africa with a number of companions, but nothing
+more is known about him. A relic claimed to be Saint Valentine of Terni's head was
+preserved in the abbey of New Minster, Winchester, and venerated.
+February 14 is celebrated as St. Valentine's Day in various Christian denominations;
+it has, for example, the rank of 'commemoration' in the calendar of saints in the
+Anglican Communion. The feast day of Saint Valentine is given in the calendar of saints
+of the Lutheran Church. In the 1969 revision of the Roman Catholic Calendar of Saints,
+the feast day of Saint Valentine on February 14 was removed from the General Roman
+Calendar and relegated to particular (local or even national) calendars for the
+following reason: Though the memorial of Saint Valentine is ancient, it is left to
+particular calendars, since, apart from his name, nothing is known of Saint Valentine
+except that he was buried on the Via Flaminia on February 14.
+The feast day is still celebrated in Balzan (Malta) where relics of the saint are
+claimed to be found, and also throughout the world by Traditionalist Catholics who
+follow the older, pre-Second Vatican Council calendar (see General Roman Calendar
+of 1960). In the Eastern Orthodox Church, St. Valentine is recognized on July 6, in
+which Saint Valentine, the Roman presbyter, is honoured; in addition, the Eastern
+Orthodox Church observes the feast of Hieromartyr Valentine, Bishop of Interamna,
+on July 30."
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="italic" />
+
+    </ScrollView>
+
+</LinearLayout>
